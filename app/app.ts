@@ -1,7 +1,7 @@
 import { Negociacao } from "./models/negociacao.js";
-import { NegaciacaoController } from "./controllers/negaciacao-controller.js";
+import { NegociacaoController } from "./controllers/negociacao-controller.js";
 
-const controller = new NegaciacaoController();
+const controller = new NegociacaoController();
 const form = document.querySelector('.form');
 form.addEventListener("submit", (event) => {
   event.preventDefault();
